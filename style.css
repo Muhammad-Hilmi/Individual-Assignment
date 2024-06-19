@@ -940,7 +940,7 @@ h2.counter span {
 }
 
 #thank {
-    background: url("thankyou.png") center;
+    background: url("picture/thankyou.png") center;
     color: transparent;
     background-clip: text;
     font-size: 50px;
