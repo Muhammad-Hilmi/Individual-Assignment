@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png"
+    href="picture/official-logo.png">
+    <!-- boxicon css link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <div class="overlay"></div> 
+    <header>
+        <a href="#" class="logo"><span>P</span>ortfolio</a>
+        <ul class="navlist">
+            <li class="dropdown">
+                <a href="#home" class="active">Home</a>
+                <ul class="dropdown-content">
+                    <li><a href="form.html">Form Feedback</a></li>
+                </ul>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#playlist">Playlist</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="https://chat.whatsapp.com/GtSK8vtHg7BG9cFmYxLfSJ" class="btn">chat me <i class='bx bx-message-dots'></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="audio-container">
+            <button class="button button-audio" onclick="toggleAudio()">
+                Play 
+            </button>
+            <div class="audio">
+                <audio id="audio-player">
+                    <source src="audio/bg-song.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Welcome To my World</h3>
+            <h1>Hi I'm Hilmi</h1>
+
+            <div class="text-animate">
+                <h2>CDIM144 Student</h2>
+            </div>
+
+            <p>My name is Muhammad Hilmi Bin Mohd Hisham and my student ID is 2022880678. Im currently continue my study at Universiti Teknologi Mara Cawangan Kedah under course library Information</p>
+
+            <div class="btn-box">
+                <a href="mailto:muhdhilmi141@gmail.com" class="btn">My Email <i class='bx bx-right-arrow-alt' ></i></a>
+                <a href="myresume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="https://www.instagram.com/himi.x.aly?igsh=MWducG9ubTBmYThiYw=="><i class='bx bxl-instagram'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://x.com/AloyIlus?s=35"><i class='bx bxl-twitter'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://www.facebook.com/profile.php?id=61551672976874&mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="img-hero">
+            <img src="picture/hilmi.png" alt="">
+            <div class="rotate-text">
+                <div class="text">
+                    <p>Universiti Teknologi Mara Cawangan Kedah Student</p>
+                </div>
+                <span><i></i></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="picture/hilmi2.png" alt="" class="aboutHero">
+            <div class="showcase-ring">
+                <img src="picture/ring.png" class="ring">
+                <img src="picture/circle.png" class="circle">
+            </div>
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>Muhammad Hilmi Bin Mohd Hisham</h3>
+            <p>Im from Alor Setar, Kedah and I have 2 brothers. My goal is to become a graphic design and create my own animation</p>
+            <div class="about-btn">
+                <button class="active">Expertise/Experience</button>
+            </div>
+            <div class="content-btn">
+                <div class="content">
+                    <div class="text-box">
+                    <p>Design 2D character</p>
+                    <span>Character for animation or game.</span>
+                </div>
+                <div class="text-box">
+                    <p>Web & User Interface Design</p>
+                    <span>Website , Web Experience , ...</span>
+                </div>
+                <div class="text-box">
+                    <p>live 2D animation</p>
+                    <span>By using Blender i can change picture into live 2D</span>
+                </div>
+                    <div class="text-box">
+                    <p>Participate in Nescafe Youth Entrepreneurship at UiTM Kedah in 2023.</p>
+                    <span>Learning on how to make a coffee and run a business.</span>
+                </div>
+                <div class="text-box">
+                    <p>Participate as a facilitator for kem kepimpinan pengawas Sekolah Menengah Kebangsaan Amanjaya for 19-20 May 2023.</p>
+                    <span>taking care of student and conduct a program for them.</span>
+                </div>
+                <div class="text-box">
+                    <p>Exco Multimedia Asean Community Student Association 2022/2023.</p>
+                    <span>becoming an exco for a club</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="main-text">
+            <h2 class="heading">My Education Timeline</h2>
+            <span>since 2009-2025</span>
+        </div>
+        
+        <div class="timeline">
+            <div class="checkpoint">
+                <div>
+                    <h2>2009-2010: Tadika Pasti Taman Nuri</h2>
+                    <p>My life of education starts here since I was 5 year olds, until 6 year olds. We learn basic knowledge of Islam and common sense.</p>
+                </div>
+            </div>
+            <div class="checkpoint">
+                <div>
+                    <h2>2011-2016: Sekolah Kebangsaan Tunku Raudzah</h2>
+                    <p>After I graduated from Pasti, I enrolled in Sekolah Kebangsaan Tunku Raudzah for 6 years. I made a lot of memories in that school with my friends such as playing together, joining camping, and many more. Fun fact: almost all of my family enrolled in Sekolah Kebangsaan Tunku Raudzah.</p>
+                </div>
+            </div>
+            <div class="checkpoint">
+                <div>
+                    <h2>2017-2021: Sekolah Menengah Kebangsaan Syed Mohamed Al-Bukhary</h2>
+                    <p>I furthered my secondary education in Sekolah Menengah Kebangsaan Syed Mohamed Al-Bukhary, located near Kedah State Education Department and surrounded by other schools like Sekolah Menengah Darul Aman, vocational school, and other primary schools. We were just entering high school during the Covid-19 pandemic. Most of us struggled a lot but we made it until SPM and graduated high school together with my fellow friends.</p>
+                </div>
+            </div>
+            <div class="checkpoint">
+                <div>
+                    <h2>2022-2025: Universiti Teknologi Mara Cawangan Kedah</h2>
+                    <p>After getting my SPM results, I chose to continue my studies at UITM cawangan Kedah, which is located in Merbok. I chose the Library Information Management course as I was a librarian at my high school. I learned a lot here, like being independent and something new related to the library and digital.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section class="gallery" id="gallery">
+        <div class="main-text">
+            <h2 class="heading">My Gallery</h2>
+            <span>All of my beloved things</span> 
+        </div>
+        <div class="fillter-buttons">
+            <button class="button mixitup-control-active" data-filter="all">All</button>
+            <button class="button" data-filter=".picture">Picture</button>
+            <button class="button" data-filter=".song">Song</button>
+            <button class="button" data-filter=".artwork">Artwork</button>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-box mix artwork">
+                <div class="portfolio-content">
+                    <h3>ArtWork</h3>
+                    <p>My third original character that I make for my novel and animation. Her name is Eve</p>
+                </div>
+                <div class="portfolio-img">
+                    <a href="https://www.instagram.com/himi.x.aly?igsh=MWducG9ubTBmYThiYw==" target="_blank"> 
+                        <img src="picture/art1.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-box mix artwork">
+                <div class="portfolio-content">
+                    <h3>ArtWork</h3>
+                    <p>My second original character and my favourite out of all my original character that I make. Her name is Leyna</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="picture/art2.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix artwork">
+                <div class="portfolio-content">
+                    <h3>ArtWork</h3>
+                    <p>This special because this is my first commission that I make for my friend. Her name is Thessia.</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="picture/art3.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix picture">
+                <div class="portfolio-content">
+                    <h3>My Beloved Mother</h3>
+                    <p>Image of me and my mom at my grandmother house.</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="picture/image1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix picture">
+                <div class="portfolio-content">
+                    <h3>Family</h3>
+                    <p>Picture of my family at our house.</p>
+                </div>
+                <div class="portfolio-img">
+                    <img src="picture/image2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix song">
+                <div class="portfolio-content">
+                    <h3>One Voice</h3>
+                    <p>Sang by Rokudenashi. Japanesse title Tada Koe Hitotsu.</p>
+                    <a href="https://www.youtube.com/watch?v=5GUaMOpfmr8" target="_blank" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="picture/song1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix song">
+                <div class="portfolio-content">
+                    <h3>Love Letter</h3>
+                    <p>Sang by Yoasobi.</p>
+                    <a href="https://www.youtube.com/watch?v=mnta9Pp2LqA" target="_blank" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="picture/song2.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix song">
+                <div class="portfolio-content">
+                    <h3>Spiral</h3>
+                    <p>Sang by Longman. My favourite song in the list.</p>
+                    <a href="https://www.youtube.com/watch?v=fE9trKOuT3Q" target="_blank" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="picture/song3.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix song">
+                <div class="portfolio-content">
+                    <h3>Sukidakara</h3>
+                    <p>Song by Yuika. My second favourite.</p>
+                    <a href="https://www.youtube.com/watch?v=eYAd4uDotF0" target="_blank" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="picture/song4.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="schedule" id="schedule">
+        <div class="main-text">
+            <h2 class="heading">My Schedule</h2>
+            <span>Timetable for Semester 4</span>
+        </div>
+        <div class="name">
+            <p>Name: Muhammad Hilmi Bin Mohd Hisham</p>
+        </div>
+        <div class="section">
+            <p>Student ID:2022880678</p>
+        </div>
+        <table>
+            <thead>
+                <th>SUBJECT</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+                <th>SAT</th>
+                <th>SUN</th>
+
+            </thead>
+        <tbody>
+            <tr>
+                <th>IMC258</th>
+                <td></td>
+                <td></td>
+                <td>2:00PM-4:00PM</td>
+                <td>10:00AM-11:00AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>IML254</th>
+                <td>2:00PM-4:00PM</td>
+                <td></td>
+                <td>8:00AM-10:00AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>IML255</th>
+                <td></td>
+                <td>8:00AM-11:00AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>IML256</th>
+                <td>2:00PM-4:00PM</td>
+                <td>12:00PM-2:00PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>IML257</th>
+                <td></td>
+                <td>4:00PM-5:00PM</td>
+                <td></td>
+                <td>8:00AM-10:00AM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        </table>
+    </section>
+
+    <section class="playlist" id="playlist">
+        <div class="main-text">
+            <h2 class="heading">My Playlist</h2>
+            <span>For Better quality please press the title below the video.</span>
+        </div>    
+
+        <div class="container">
+            <div class="video">
+                <video id="main-video" src="video/video-1.mp4" controls muted autoplay></video>
+                <h3 class="title" id="main-video-title">01. Thus Spoke Apocalypse: Honkai Impact 3rd</h3>
+            </div>
+        </div>
+        <div class="video-list">
+            <div class="vid" data-src="video/video-1.mp4" data-title="01. Thus Spoke Apocalypse: Honkai Impact 3rd">
+                <video src="video-1.mp4" muted></video>
+                <a href="https://www.youtube.com/watch?v=oopMlNX5O24" class="title" target="_blank">01. Thus Spoke Apocalypse: Honkai Impact 3rd</a>
+            </div>
+            <div class="vid" data-src="video/video-2.mp4" data-title="02. Will Of Honkai: Honkai Impact 3rd">
+                <video src="video-2.mp4" muted></video>
+                <a href="https://www.youtube.com/watch?v=Q-b6rdyIJsY&list=PLLX1bpH-W3ZCOeiqs3VciU_-R0geeK2XV&index=33" class="title" target="_blank">02. Will Of Honkai: Honkai Impact 3rd</a>
+            </div>
+            <div class="vid" data-src="video/video-3.mp4" data-title="03. Meteoric Salvation: Honkai Impact 3rd">
+                <video src="video-3.mp4" muted></video>
+                <a href="https://www.youtube.com/watch?v=gVHD6ieRmTI&list=PLLX1bpH-W3ZCOeiqs3VciU_-R0geeK2XV&index=21" class="title" target="_blank">03. Meteoric Salvation: Honkai Impact 3rd</a>
+            </div>
+            <div class="vid" data-src="video/video-4.mp4" data-title="04. Final Lesson: Honkai Impact 3rd">
+                <video src="video-4.mp4" muted></video>
+                <a href="https://www.youtube.com/watch?v=8dmvNGxYPCU&list=PLLX1bpH-W3ZCOeiqs3VciU_-R0geeK2XV&index=28" class="title" target="_blank">04. Final Lesson: Honkai Impact 3rd</a>
+            </div>
+            <div class="vid" data-src="video/video-5.mp4" data-title="05. Shatttered Samsara: Honkai Impact 3rd">
+                <video src="video-5.mp4" muted></video>
+                <a href="https://www.youtube.com/watch?v=NQdVJcEE0m4&list=PLLX1bpH-W3ZCOeiqs3VciU_-R0geeK2XV&index=14" class="title" target="_blank">05. Shatttered Samsara: Honkai Impact 3rd</a>
+            </div>
+            <div class="vid" data-src="video/video-6.mp4" data-title="06. Graduation Trip: Honkai Impact 3rd">
+                <video src="video-6.mp4" muted></video>
+                <a href="https://www.youtube.com/watch?v=VeWCBissZy8&list=PLLX1bpH-W3ZCOeiqs3VciU_-R0geeK2XV&index=2" class="title" target="_blank">06. Graduation Trip: Honkai Impact 3rd</a>
+            </div>
+            <div class="vid" data-src="video/video-7.mp4" data-title="07. Because Of You: Honkai Impact 3rd">
+                <video src="video-7.mp4" muted></video>
+                <a href="https://www.youtube.com/watch?v=_BUh64YHE30&list=PLLX1bpH-W3ZCOeiqs3VciU_-R0geeK2XV&index=5" class="title" target="_blank">07. Because Of You: Honkai Impact 3rd</a>
+            </div>
+            <div class="vid" data-src="video/video-8.mp4" data-title="08. Everlasting Flame: Honkai Impact 3rd">
+                <video src="video-8.mp4" muted></video>
+                <a href="https://www.youtube.com/watch?v=U9e3MFZI3zE&list=PLLX1bpH-W3ZCOeiqs3VciU_-R0geeK2XV&index=11" class="title" target="_blank">08. Everlasting Flame: Honkai Impact 3rd</a>
+            </div>
+            <div class="vid" data-src="video/video-9.mp4" data-title="09. Hiking Mount H">
+                <video src="video-9.mp4" muted></video>
+                <a href="https://youtu.be/BZvQ4RUFLxo" class="title" target="_blank">09. Hiking Mount H</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="expertise" id="expertise"> 
+        <div class="main-text">
+            <h2 class="heading">My Expertise</h2>
+            <span>Here my overall skill in software/other things</span>
+        </div>
+            <div class="skills">
+                <div class="container">
+                    <div class="skillBox">
+                        <div class="skill-wrap">
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                    </svg>
+                                    <h2 class="counter">
+                                        <span data-target="89">0</span>%
+                                    </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    Dgital Art 
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                    </svg>
+                                    <h2 class="counter">
+                                        <span data-target="47">0</span>%
+                                    </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    HTML
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                    </svg>
+                                    <h2 class="counter">
+                                        <span data-target="56">0</span>%
+                                    </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    Graphic Designing
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                    </svg>
+                                    <h2 class="counter">
+                                        <span data-target="19">0</span>%
+                                    </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    CSS
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <h1 id="thank">THAT'S ALL FROM ME THANK YOU</h1>
+    
+    <footer>
+        <p id="lastModfied">Last update:</p>
+    </footer>
+
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up' ></i>
+        </span>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
